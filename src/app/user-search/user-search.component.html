@@ -1,0 +1,38 @@
+<div>
+  <h2>User Search</h2>
+  <form [formGroup]="searchForm">
+    <div>
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" formControlName="firstName" />
+    </div>
+    <div>
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" formControlName="lastName" />
+    </div>
+    <div>
+      <label for="phoneNumber">Phone Number:</label>
+      <input type="text" id="phoneNumber" formControlName="phoneNumber" />
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="text" id="email" formControlName="email" />
+    </div>
+    <button type="button" (click)="addUser()">Add User</button>
+    <button type="button" (click)="searchUsers()">Search User</button>
+  </form>
+
+  
+
+  <div *ngIf="searchMessage">{{ searchMessage }}</div>
+
+  
+  <div *ngIf="users.length > 0">
+    <h3>Added Users:</h3>
+    <ul>
+      <li *ngFor="let user of users">
+        {{ user.firstName }} {{ user.lastName }} - {{ user.phoneNumber }} - {{ user.email }}
+      </li>
+    </ul>
+  </div>
+</div>
+
