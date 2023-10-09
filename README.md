@@ -4,10 +4,13 @@
     Laboratoire 4 
 # Précision sur le laboratoire 
     Quelques précisions sur la fonction Search et Add : 
-        Lorsque vous voullez add un user il faut respecter les critères de un prénom, un nom, un email conforme et un numéro de téléphone. Sinon le user ne sera pas ajouter. Une fois le user est ajouter il sera dans la liste des users ajoutés qui sera visible. Donc si les critères sont respectés et que l'ajout ADD se fait alors vous verrez le user que vous venez d'ajouter dans la liste. 
+        Lorsque vous voullez add un user il faut respecter les critères de un prénom, un nom, un email conforme et un numéro de téléphone. 
+         Sinon le user ne sera pas ajouter. Une fois le user est ajouter il sera dans la liste des users ajoutés qui sera visible.
+         Donc si les critères sont respectés et que l'ajout ADD se fait alors vous verrez le user que vous venez d'ajouter dans la liste. 
 
         Vous pouvez par la suite rechercher ce user en donnant ses informations et cliquer sur SEARCH.
-        Le message si le user est dans la liste sera : WE HAVE THIS USER. (vous verrez qu'il est dans la liste après l'avoir ajouter dans tout les cas) 
+        Le message si le user est dans la liste sera : WE HAVE THIS USER. 
+        (vous verrez qu'il est dans la liste après l'avoir ajouter dans tout les cas) 
         Si le user n'est pas dans la liste alors : WE DON'T HAVE THIS USER.
 
         Merci beaucoup, 
